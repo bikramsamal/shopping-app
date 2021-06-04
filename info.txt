@@ -1,2 +1,23 @@
 Hi,
-This is my 1st file on JavaHome
+This is my 1st file on JavaHome. 
+
+Logfile of the Clone:
+======================
+Success: Target Database instance RPTD is up and running before preclone step execution
+Success: Target Database instance RPTD is accepting connections before preclone step execution
+Success: PRECLONE script /u99/clones/RPTD/preclone/000_preclone.sql executed successfully.
+Success: All pre-clone scripts and expdp backups has been completed successfully
+Success: Database Backup is completed and has status as Success. Proceeding with Database clone steps
+Success: Database Clone is completed and has status as Success. Proceeding with Post Clone Steps
+Success: Target Database instance RPTD is up and running before postclone step execution
+Success: Target Database instance RPTD is accepting connections before postclone step execution
+Success: Post Clone Custom script PST_CUS_SCRPT executed successfully.
+Success: Target Database instance RPTD is up and running before validation step execution
+Success: Target Database instance RPTD is accepting connections before validation step execution
+Success: Database_Status validated successfully
+Success: BANSECR.GUBIPRF_JS_PRXY_SID validated successfully
+Success: SSOMGR.APP_CONFIG_APP_NAME validated successfully
+Success: GENERAL.GUBINST_INSTANCE_NAME validated successfully
+Success: TWGBWRUL_CGIBIN_DIR validated successfully
+Success: GUBMODU_URL validated successfully
+Success: Post Data refresh validation completed successfully
