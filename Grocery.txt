@@ -7,3 +7,11 @@ jeera
 Garlic
 Soap
 Shampoo
+Bakery and Bread.
+Meat and Seafood.
+Pasta and Rice.
+Oils, Sauces, Salad Dressings, and Condiments.
+Cereals and Breakfast Foods.
+Soups and Canned Goods.
+Frozen Foods.
+Dairy, Cheese, and Eggs.
