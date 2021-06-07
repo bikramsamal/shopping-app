@@ -1,0 +1,77 @@
+1. Take the backup of the PROD database.
+
+bardpbnrduva01 PROD database
+--------------------------------------------
+
+/u01/app/scripts/dba-tools/bin/dbbackup.sh db PROD FALSE > /u01/app/scripts/backup/logs/ebs_db_backup_PROD-`date +\%a-\%d-\%b-\%Y-\%H-\%M`.log 2>&1
+
+2. Add READ ACCESS on GENERAL.GOBEACC to the following Oracle Accounts
+
+GRANT SELECT ON GENERAL.GOBEACC TO FINREP;
+GRANT SELECT ON GENERAL.GOBEACC TO STUREP;
+GRANT SELECT ON GENERAL.GOBEACC TO FAIDREP;
+GRANT SELECT ON GENERAL.GOBEACC TO ALUREP;
+GRANT SELECT ON GENERAL.GOBEACC TO DEANREP;
+GRANT SELECT ON GENERAL.GOBEACC TO PAYREP2;
+GRANT SELECT ON GENERAL.GOBEACC TO ZNETCAS;
+GRANT SELECT ON GENERAL.GOBEACC TO ZNETSYS;
+GRANT SELECT ON GENERAL.GOBEACC TO MISREP;
+
+
+3. Validate the grants by executing the following query.
+
+select GRANTEE,OWNER,TABLE_NAME,PRIVILEGE from dba_tab_privs where TABLE_NAME='GOBEACC' and GRANTEE in ('FINREP','STUREP','FAIDREP','ALUREP','DEANREP','PAYREP2','ZNETCAS','ZNETSYS','MISREP');
+
+##################
+
+SQL> GRANT SELECT ON GENERAL.GOBEACC TO FINREP;
+
+Grant succeeded.
+
+SQL> GRANT SELECT ON GENERAL.GOBEACC TO STUREP;
+GRANT SELECT ON GENERAL.GOBEACC TO FAIDREP;
+GRANT SELECT ON GENERAL.GOBEACC TO ALUREP;
+GRANT SELECT ON GENERAL.GOBEACC TO DEANREP;
+GRANT SELECT ON GENERAL.GOBEACC TO PAYREP2;
+GRANT SELECT ON GENERAL.GOBEACC TO ZNETCAS;
+GRANT SELECT ON GENERAL.GOBEACC TO ZNETSYS;
+
+Grant succeeded.
+
+SQL>
+Grant succeeded.
+
+SQL>
+Grant succeeded.
+
+SQL> GRANT SELECT ON GENERAL.GOBEACC TO MISREP;
+Grant succeeded.
+
+SQL>
+Grant succeeded.
+
+SQL>
+Grant succeeded.
+
+SQL>
+Grant succeeded.
+
+SQL>
+
+Grant succeeded.
+
+
+GRANTEE        OWNER          TABLE_NAME     PRIVILEGE
+-------------- -------------- -------------- ----------------------------------------
+ALUREP         GENERAL        GOBEACC        SELECT
+DEANREP        GENERAL        GOBEACC        SELECT
+FAIDREP        GENERAL        GOBEACC        SELECT
+FINREP         GENERAL        GOBEACC        SELECT
+MISREP         GENERAL        GOBEACC        SELECT
+PAYREP2        GENERAL        GOBEACC        SELECT
+STUREP         GENERAL        GOBEACC        SELECT
+ZNETCAS        GENERAL        GOBEACC        SELECT
+ZNETSYS        GENERAL        GOBEACC        SELECT
+
+9 rows selected.
+
