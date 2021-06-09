@@ -7,3 +7,5 @@ GRANT SELECT ON bikram.samal TO BAPA;
 GRANT SELECT ON bikram.samal TO BAPA;
 GRANT SELECT ON bikram.samal TO BAPA;
 GRANT SELECT ON bikram.samal TO BAPA;
+################
+pratice on task1
