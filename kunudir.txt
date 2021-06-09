@@ -1,11 +1,1 @@
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-GRANT SELECT ON bikram.samal TO BAPA;
-################
-pratice on task1
+Detailed work step guide see DBREFRESH tool deployment guide
