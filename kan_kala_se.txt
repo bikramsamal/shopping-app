@@ -2,3 +2,11 @@ Bikram has good knowledge in GIT.
 Bikram familiar with GIT commands.
 this is written by P.Mishra
 All in all Bikram is a Chho.. Mukund. I am sorry people might not understand the meaning.
+>>>>>>>>>>>>>>>>
+
+Git is the most popular tool which helps to devloper to push and pull there project from remote to local repo and vice versa.
+
+##About DevOps ###
+What is the DevOps as per your understanding?
+-   DevOps is the collection of the multiple tools which enable to organization perform fast and frequently relase for 
+    better in the marker.  
