@@ -1,0 +1,3 @@
+print: this is the file where we can merge the files. 
+fetch : it will fatches the data from remote to local but won't merge it. 
+pull : it will fetch and merge the data in local repo. 
