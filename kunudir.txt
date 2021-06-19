@@ -1,1 +1,0 @@
-Detailed work step guide see DBREFRESH tool deployment guide
