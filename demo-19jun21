@@ -2,9 +2,6 @@ this is the file created by 19Jun21.
 We have finised Git, Maven course. 
 Git > Maven > Nexus3 
 Via Git create the artifactes push to remote repo vice versa. 
-<<<<<<< HEAD
 this line is create for conflict. Once done this resolved will push to remote.
-=======
 this line is adding for conflict. once conflict resolve will push to remote. 
 
->>>>>>> 460923b48e2d2cdb257c7cfd5830e8664c4f586f
